@@ -64,7 +64,8 @@ const Board = () => {
                 <button type="button" className="btn btn-success mt-5" onClick={() => setMenu(false)}>Start game!!</button>
             </div>
         </div>
-    ) : (
+    ) :
+    (
 		<div className="container ">
             <h2 className="text-white">{status}</h2>
 			<button type="button" className="btn bg-warning mb-3" onClick={restartSquare}>Start Over</button>
